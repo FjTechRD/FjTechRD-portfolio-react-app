@@ -1,0 +1,88 @@
+/*! General Style for the component*/
+
+.scroll__container {
+  background-color: black;
+  height: 54rem;
+  width: 100%;
+  overflow-y: scroll;
+  color: #fff;
+  padding: 1.2rem 2rem;
+}
+
+.scroll__container::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.scroll__container::-webkit-scrollbar-track {
+  background: #000000; /* color of the tracking area */
+}
+
+.scroll__container::-webkit-scrollbar-thumb {
+  background-color: var(--colorMain); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+/*! age, residence, etc... */
+
+.me-info__list {
+  padding: 1rem 0 2rem 0;
+}
+
+.me-info__element {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+}
+
+.me-info__element p {
+  background-color: var(--colorMain);
+  padding: 0.4rem 0.6rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.me-info__element span {
+  font-weight: 300;
+}
+
+/*! Lenguages */
+
+.lenguages {
+  text-align: left;
+  padding: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.lenguages__title {
+  text-align: center;
+}
+
+/*! Skills */
+
+/*! Extra Skills */
+
+/*! Style of the progress bars*/
+
+.progress {
+  height: 1.4rem;
+  width: 100%;
+  border: 0.1rem solid #428bca;
+  border-radius: 0.5rem;
+  background-color: #e6f3fa;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #428bca;
+  display: flex;
+  align-items: center;
+  transition: width 0.25s;
+  border-radius: 0.5rem;
+}
+
+.progress-bar-text {
+  margin-left: 1rem;
+  font-weight: bold;
+  color: #cce7f5;
+}

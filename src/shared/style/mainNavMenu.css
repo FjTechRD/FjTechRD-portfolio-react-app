@@ -1,0 +1,36 @@
+.nav-menu__desktop {
+  display: none;
+}
+
+.light-mode {
+  margin-top: 10rem;
+}
+
+.menu__desktop__container-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.menu__desktop {
+  margin-top: 15rem;
+}
+
+.menu__desktop__item {
+  padding: 2rem 0;
+}
+
+.menu__desktop__item i {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .nav-menu__desktop {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12rem;
+    background-color: #1a1919;
+  }
+}
