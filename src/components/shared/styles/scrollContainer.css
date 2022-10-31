@@ -2,7 +2,7 @@
 
 .scroll__container {
   background-color: black;
-  height: 54rem;
+  height: 38rem;
   width: 100%;
   overflow-y: scroll;
   color: #fff;
@@ -14,7 +14,7 @@
 }
 
 .scroll__container::-webkit-scrollbar-track {
-  background: #000000; /* color of the tracking area */
+  background: #161212; /* color of the tracking area */
 }
 
 .scroll__container::-webkit-scrollbar-thumb {
@@ -45,22 +45,38 @@
   font-weight: 300;
 }
 
-/*! Lenguages */
+/*! Lenguages, Skills */
 
+.skills__info,
 .lenguages {
   text-align: left;
-  padding: 1rem 0 2rem 0;
+  padding: 1rem 0 3rem 0;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
+.skills-info__name,
 .lenguages__title {
   text-align: center;
 }
 
-/*! Skills */
+.skills__items {
+  margin-bottom: 1rem;
+}
 
 /*! Extra Skills */
+
+.extra__skills {
+  padding: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ex-skill__parraf {
+  display: flex;
+  gap: 1rem;
+}
 
 /*! Style of the progress bars*/
 
@@ -85,4 +101,17 @@
   margin-left: 1rem;
   font-weight: bold;
   color: #cce7f5;
+}
+
+/*! MEDIA QUERYS */
+
+@media (min-width: 1024px) {
+  .scroll__container {
+    background-color: #161212;
+    height: 52.5rem;
+    width: 100%;
+    overflow-y: scroll;
+    color: #fff;
+    padding: 1.2rem 2rem;
+  }
 }

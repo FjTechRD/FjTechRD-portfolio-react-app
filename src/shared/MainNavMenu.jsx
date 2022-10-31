@@ -12,7 +12,7 @@ const MainNavMenu = () => {
       <div className="menu__desktop">
         <ul className="menu__desktop__container-links">
           <li className="menu__desktop__item">
-            <Link to="/home">
+            <Link to="/">
               <i className="fa-solid fa-house"></i>{" "}
             </Link>
           </li>

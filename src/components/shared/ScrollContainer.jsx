@@ -46,7 +46,7 @@ const ScrollContainer = () => {
       </div>
       <hr />
       <div className="skills__info">
-        <h2>Skills</h2>
+        <h2 className="skills-info__name">Skills</h2>
         <div className="skill__items-container">
           <div className="skills__items">
             <h3>HTML</h3>
@@ -92,16 +92,17 @@ const ScrollContainer = () => {
       </div>
       <hr />
       <div className="extra__skills">
-        <p>
+        <h2>Extra Skills</h2>
+        <p className="ex-skill__parraf">
           <i className="fa-solid fa-code"></i>Bootstrap, Material UI
         </p>
-        <p>
+        <p className="ex-skill__parraf">
           <i className="fa-solid fa-code"></i>Gulp, SASS
         </p>
-        <p>
+        <p className="ex-skill__parraf">
           <i className="fa-solid fa-code"></i>Elementor
         </p>
-        <p>
+        <p className="ex-skill__parraf">
           <i className="fa-solid fa-code"></i>Shell Bash & Zsh
         </p>
       </div>

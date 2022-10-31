@@ -12,7 +12,7 @@ const HeaderNavMenu = ({ navMenuOpen, setNavMenuOpen }) => {
       <nav className="nav__menu">
         <ul className="nav-menu__container-links">
           <li className="nav-link__item">
-            <Link to="/home">
+            <Link to="/">
               <i className="fa-solid fa-house"></i>{" "}
             </Link>
           </li>

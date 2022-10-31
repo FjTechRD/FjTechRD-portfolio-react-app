@@ -4,6 +4,7 @@
   display: flex;
 }
 
+.side-information__desktop,
 .side-information {
   height: 100vh;
   position: fixed;

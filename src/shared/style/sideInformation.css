@@ -1,14 +1,22 @@
-.side-information {
+.side-information__desktop {
   display: none;
 }
+
+.side-information {
+  display: block;
+  top: 4.9rem;
+  width: 60%;
+  text-align: center;
+  background-color: var(--colorDarken);
+}
 .personal__info {
-  margin-top: 3rem;
+  margin-top: 1rem;
   color: #fff;
   font-size: 2rem;
 }
 
 .personal__img {
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .personal__img img {
@@ -20,17 +28,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1.4rem 0 2rem 0;
+  margin: 1rem 0;
   gap: 1rem;
   border: none;
 }
 
 .social-media__item i {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .btn__side-info {
-  margin-top: 3rem;
+  margin: 2.5rem 0;
 }
 
 .btn-side {
@@ -51,12 +59,21 @@
 }
 
 @media (min-width: 1024px) {
-  .side-information {
+  .side-information__desktop {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 30rem;
+    width: 33rem;
     background-color: #1a1919;
     text-align: center;
+  }
+  .personal__info {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .personal__img {
+    padding: 2rem 3rem;
   }
 }

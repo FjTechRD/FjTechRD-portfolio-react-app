@@ -7,15 +7,15 @@ import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import MainNavMenu from "./shared/MainNavMenu";
-import SideInformation from "./shared/SideInformation";
+import SideInformationDesktop from "./shared/SideInformationDesktop";
 
 function App() {
   return (
     <main className="App">
-      <SideInformation />
+      <SideInformationDesktop />
       <Routes>
         <Route element={<MainLayout />}>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/services" element={<MyServices />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />

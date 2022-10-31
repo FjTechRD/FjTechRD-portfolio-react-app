@@ -13,12 +13,14 @@ const RatingStar = () => {
         return (
           <label>
             <input
+              key={star}
               type="radio"
               name="rating"
               value={ratingValue}
               onClick={() => setRatingStar(ratingValue)}
             />
             <FaStar
+              key={star}
               size={20}
               className="star__rating"
               color={

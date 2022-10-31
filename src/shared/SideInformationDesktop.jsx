@@ -2,15 +2,9 @@ import React from "react";
 import ScrollContainer from "../components/shared/ScrollContainer";
 import "./style/sideInformation.css";
 
-const SideInformation = ({ openSideInformation }) => {
-  if (openSideInformation) {
-  }
-
+const SideInformationDesktop = () => {
   return (
-    <section
-      className="side-information"
-      style={{ display: !openSideInformation ? "none" : "block" }}
-    >
+    <section className="side-information__desktop">
       <article className="personal__info">
         <div className="personal__img">
           <img src="/img/personal_photo.webp" alt="" />
@@ -66,4 +60,4 @@ const SideInformation = ({ openSideInformation }) => {
   );
 };
 
-export default SideInformation;
+export default SideInformationDesktop;

@@ -97,17 +97,19 @@
 }
 
 @media (min-width: 1024px) {
+  .home__container {
+    padding-left: 4rem;
+  }
   .about-me {
     min-height: 20rem;
   }
   .about-me__info-cont {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     margin: 0 auto;
     font-size: 2rem;
-    padding-left: 30rem;
+    padding-left: 16%;
   }
   .greeting__content {
     min-width: 60rem;

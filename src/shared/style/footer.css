@@ -14,3 +14,9 @@
   gap: 1.5rem;
   display: flex;
 }
+
+@media (min-width: 1024px) {
+  .footer {
+    padding-left: 3rem;
+  }
+}
