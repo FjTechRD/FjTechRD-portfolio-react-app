@@ -6,7 +6,16 @@ const Footer = () => {
     <footer className="footer">
       <div className="reserved__rights">
         <p>All rights reserved copyright 2022 &#169;</p>
-        <p>Designed by FjTechRD</p>
+        <p>
+          Designed by{" "}
+          <a
+            className="fjtechrd__enlace"
+            href="https://github.com/FjTechRD"
+            target="_blank"
+          >
+            FjTechRD
+          </a>
+        </p>
       </div>
       <div className="footer__social">
         <ul className="footer__social-list">

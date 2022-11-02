@@ -14,3 +14,15 @@
   gap: 1.5rem;
   display: flex;
 }
+
+.fjtechrd__enlace {
+  text-decoration: none;
+  color: var(--white);
+  transition: all 200ms ease;
+}
+
+.fjtechrd__enlace:hover {
+  color: var(--colorMain);
+  font-weight: 900;
+  transition: all 200ms ease;
+}

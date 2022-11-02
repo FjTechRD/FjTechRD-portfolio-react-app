@@ -2,25 +2,36 @@ import React, { useEffect, useState } from "react";
 import "../../shared/style/header.css";
 
 const LightMode = () => {
-  // const theme = "dark" || "light";
-  // const [changerTheme, setChangerTheme] = useState < theme > "dark";
-  // const handleChange = (e) => {
-  //   e.preventDefault();
-  //   setChangerTheme(e.target.cheked ? "dark" : "light");
-  // };
+  const [theme, setTheme] = useState("dark");
+  const switchTheme = () => {
+    if (theme === "dark") {
+      setTheme("light");
+    } else {
+      setTheme("dark");
+    }
+  };
 
-  // useEffect(() => {
-  //   document.body.setAttribute("data-theme", theme);
-  // }, [changerTheme]);
-
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   return (
-    <button
-      className="btn dark-mobile-btn header__style-btn"
-      // onClick={changerTheme}
-      // cheked={theme === "light"}
-    >
-      <i className="fa-solid fa-moon"></i>
-    </button>
+    <div>
+      {theme === "dark" ? (
+        <button
+          className="btn dark-mobile-btn header__style-btn"
+          onClick={switchTheme}
+        >
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      ) : (
+        <button
+          className="btn dark-mobile-btn header__style-btn"
+          onClick={switchTheme}
+        >
+          <i className="fa-solid fa-moon"></i>
+        </button>
+      )}
+    </div>
   );
 };
 

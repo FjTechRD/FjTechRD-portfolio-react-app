@@ -11,6 +11,7 @@ html {
 body {
   font-size: 16px;
   font-family: "Noto Sans", sans-serif;
+  background-color: var(--colorDarken);
 }
 
 i {

@@ -1,4 +1,4 @@
-:root {
+.dark {
   --colorMain: #ffae00;
   --colorDarken: #202020;
   --white: #fff;
@@ -15,7 +15,7 @@
   --particlesBg: #000;
 }
 
-[data-theme="light"] {
+.light {
   --colorMain: #428bca;
   --colorDarken: #dbdbdb;
   --white: #000;

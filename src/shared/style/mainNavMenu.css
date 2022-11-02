@@ -3,7 +3,7 @@
 }
 
 .light-mode {
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 
 .menu__desktop__container-links {
@@ -13,7 +13,7 @@
 }
 
 .menu__desktop {
-  margin-top: 15rem;
+  margin-top: 12rem;
 }
 
 .menu__desktop__item {
@@ -49,7 +49,7 @@
 .link__services::after {
   content: "SERVICES";
   position: absolute;
-  top: -1rem;
+  top: -1.5rem;
   left: -3rem;
   height: 1rem;
   color: #fff;
@@ -64,7 +64,7 @@
 .link__education::after {
   content: "EDUCATION";
   position: absolute;
-  top: -1rem;
+  top: -1.8rem;
   left: -4.1rem;
   height: 1rem;
   color: #fff;
@@ -79,7 +79,7 @@
 .link__projects::after {
   content: "PROJECTS";
   position: absolute;
-  top: -1rem;
+  top: -1.8rem;
   left: -3rem;
   height: 1rem;
   color: #fff;
@@ -94,7 +94,7 @@
 .link__contact::after {
   content: "CONTACT";
   position: absolute;
-  top: -1rem;
+  top: -1.8rem;
   left: -2.8rem;
   height: 1rem;
   color: #fff;

@@ -1,8 +1,8 @@
 /*! General Style for the component*/
 
 .scroll__container {
-  background-color: black;
-  height: 38rem;
+  background-color: var(--scrollBg);
+  height: 46rem;
   width: 100%;
   overflow-y: scroll;
   color: var(--white);
@@ -30,11 +30,15 @@
 
 .me-info__element {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0.6rem 0;
 }
 
 .me-info__element p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.2rem;
   background-color: var(--colorMain);
   padding: 0.4rem 0.6rem;
   color: var(--black);
@@ -108,6 +112,22 @@
 }
 
 /*! MEDIA QUERYS */
+
+@media (min-width: 768px) {
+  .me-info__element p {
+    width: 40%;
+    margin: 0;
+  }
+  .scroll__container {
+    height: 41rem;
+  }
+  .me-info__element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.6rem 0;
+  }
+}
 
 @media (min-width: 1024px) {
   .scroll__container {
