@@ -16,7 +16,7 @@ const ScrollContainer = () => {
           </li>
           <li className="me-info__element">
             <p>Freelancer:</p>
-            <span> Available</span>
+            <span className="me__available"> Available</span>
           </li>
           <li className="me-info__element">
             <p>Address:</p>
@@ -26,7 +26,7 @@ const ScrollContainer = () => {
       </div>
       <hr />
       <div className="lenguages">
-        <h2 className="lenguages__title">Lenguages</h2>
+        <h2 className="lenguages__title">Languages</h2>
         <div className="lenguages__elements">
           <h4>Spanish</h4>
           <div className="progress">

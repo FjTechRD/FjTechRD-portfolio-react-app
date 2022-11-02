@@ -33,7 +33,7 @@
 .nav-menu__container {
   position: fixed;
   z-index: 2;
-  color: #fff;
+  color: var(--white);
   background-color: var(--colorDarken);
   height: 100vh;
   width: 16rem;

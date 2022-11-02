@@ -17,9 +17,12 @@
   z-index: 2;
 }
 
+.main-layout__position {
+  width: 100%;
+}
+
 @media (min-width: 1024px) {
   .main-layout__position {
-    width: 100%;
     padding: 0 2rem 0 20rem;
   }
 }

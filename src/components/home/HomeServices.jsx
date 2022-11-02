@@ -15,16 +15,16 @@ const HomeServices = () => {
           </div>
           <h3 className="services__name">Web Development</h3>
           <h4 className="service__description">
-            Responsive Web Desing using Html, Css, js and React
+            Responsive Web design using Html, Css, js and React
           </h4>
         </article>
         <article className="svc-box services__UI-UX">
           <div className="services-icon__container">
             <i className="fa-solid fa-compass-drafting"></i>
           </div>
-          <h3 className="services__name">UI/UX Desing</h3>
+          <h3 className="services__name">UI/UX Design</h3>
           <h4 className="service__description">
-            Desing the best user interface of market!
+            Design the best user interface of market!
           </h4>
         </article>
         <article className="svc-box services__video-editor">

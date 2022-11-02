@@ -1,0 +1,34 @@
+:root {
+  --colorMain: #ffae00;
+  --colorDarken: #202020;
+  --white: #fff;
+  --white9: #fff9;
+  --black: #000;
+  --semiDark: #1a1919;
+  --scrollBg: #161212;
+  --available: #00ff00;
+  --progressBarContent: #428bca;
+  --progressBarbg: #fff;
+  --grey: #aaa;
+  --yellowBorder: #c4c000;
+  --rtgStarBg: #aaa;
+  --particlesBg: #000;
+}
+
+[data-theme="light"] {
+  --colorMain: #428bca;
+  --colorDarken: #dbdbdb;
+  --white: #000;
+  --white9: #000;
+  --black: #fff;
+  --semiDark: #ffffff;
+  --scrollBg: #cfcfcf;
+  --particlesBg: ;
+  --available: #0c00b8;
+  --progressBarContent: #00a1c9;
+  --progressBarbg: #fffffffa;
+  --grey: rgb(255, 255, 255);
+  --yellowBorder: #428bca;
+  --rtgStarBg: #000;
+  --particlesBg: #000;
+}

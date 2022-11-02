@@ -5,13 +5,13 @@
 .side-information {
   display: block;
   top: 4.9rem;
-  width: 60%;
+  width: 40%;
   text-align: center;
   background-color: var(--colorDarken);
 }
 .personal__info {
   margin-top: 1rem;
-  color: #fff;
+  color: var(--white);
   font-size: 2rem;
 }
 
@@ -46,7 +46,7 @@
   border: none;
   border-radius: 1rem;
   background-color: var(--colorMain);
-  color: #000;
+  color: var(--black);
   font-weight: 900;
   cursor: pointer;
 }
@@ -64,12 +64,12 @@
     flex-direction: column;
     height: 100vh;
     width: 33rem;
-    background-color: #1a1919;
+    background-color: var(--semiDark);
     text-align: center;
   }
   .personal__info {
     margin-top: 2rem;
-    color: #fff;
+    color: var(--white);
     font-size: 2rem;
   }
 

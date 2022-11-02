@@ -1,5 +1,6 @@
 .home {
   max-width: 170rem;
+  background-color: var(--colorDarken);
 }
 
 .tsparticles {
@@ -26,7 +27,7 @@
   position: absolute;
   top: 5rem;
   z-index: 1;
-  color: #fff;
+  color: var(--white);
   font-size: 1.5rem;
 }
 
@@ -55,6 +56,7 @@
   border: none;
   border-radius: 0.5rem;
   font-weight: 700;
+  color: var(--black);
 }
 
 .about-me__btn:hover {

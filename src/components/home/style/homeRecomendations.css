@@ -1,9 +1,10 @@
 .recomendations {
   text-align: center;
-  color: #fff;
+  color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 4rem;
 }
 
 .recomendations__header {
@@ -13,7 +14,7 @@
 }
 
 .recomen__description {
-  color: #fff9;
+  color: var(--white9);
 }
 
 .recomendations__container {
@@ -27,12 +28,13 @@
 .recomendations__box {
   padding: 1rem 2rem;
   width: 32rem;
-  background-color: #aaa;
+  background-color: var(--grey);
   text-align: center;
   gap: 1rem;
   border-radius: 1rem;
-  border: 0.2rem solid #c4c000;
-  color: #000;
+  border: 0.2rem solid;
+  color: var(--black);
+  box-shadow: -2px 1px 10px 3px #808080;
 }
 
 .recomendations__star-valoration {
@@ -56,8 +58,10 @@ input[type="radio"] {
 
 .recomendations__name {
   text-align: right;
+  color: #000;
 }
 
 .recomendations__quote {
   text-align: justify;
+  color: #000;
 }

@@ -24,7 +24,9 @@ const RatingStar = () => {
               size={20}
               className="star__rating"
               color={
-                ratingValue <= (hoverStar || ratingStar) ? "#ffae00" : "#030218"
+                ratingValue <= (hoverStar || ratingStar)
+                  ? "var(--colorMain)"
+                  : "#000"
               }
               onMouseEnter={() => setHoverStar(ratingValue)}
               onMouseLeave={() => setHoverStar(null)}

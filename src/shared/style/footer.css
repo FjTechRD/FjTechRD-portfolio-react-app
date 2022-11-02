@@ -1,7 +1,7 @@
 .footer {
-  margin-top: 4rem;
-  color: #fff;
-  padding: 1rem 0;
+  background-color: var(--colorDarken);
+  color: var(--white);
+  padding: 2rem 0 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,10 +13,4 @@
   padding-top: 1rem;
   gap: 1.5rem;
   display: flex;
-}
-
-@media (min-width: 1024px) {
-  .footer {
-    padding-left: 3rem;
-  }
 }

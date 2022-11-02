@@ -5,7 +5,7 @@
   height: 38rem;
   width: 100%;
   overflow-y: scroll;
-  color: #fff;
+  color: var(--white);
   padding: 1.2rem 2rem;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .scroll__container::-webkit-scrollbar-track {
-  background: #161212; /* color of the tracking area */
+  background: var(--scrollBg);
 }
 
 .scroll__container::-webkit-scrollbar-thumb {
@@ -37,12 +37,16 @@
 .me-info__element p {
   background-color: var(--colorMain);
   padding: 0.4rem 0.6rem;
-  color: #000;
+  color: var(--black);
   font-weight: 700;
 }
 
 .me-info__element span {
   font-weight: 300;
+}
+
+.me__available {
+  color: var(--available);
 }
 
 /*! Lenguages, Skills */
@@ -83,14 +87,14 @@
 .progress {
   height: 1.4rem;
   width: 100%;
-  border: 0.1rem solid #428bca;
+  border: 0.1rem solid var(--progressBarContent);
   border-radius: 0.5rem;
-  background-color: #e6f3fa;
+  background-color: var(--progressBarbg);
 }
 
 .progress-bar {
   height: 100%;
-  background: #428bca;
+  background: var(--progressBarContent);
   display: flex;
   align-items: center;
   transition: width 0.25s;
@@ -99,19 +103,19 @@
 
 .progress-bar-text {
   margin-left: 1rem;
-  font-weight: bold;
-  color: #cce7f5;
+  font-weight: 700;
+  color: #fff;
 }
 
 /*! MEDIA QUERYS */
 
 @media (min-width: 1024px) {
   .scroll__container {
-    background-color: #161212;
+    background-color: var(--scrollBg);
     height: 52.5rem;
     width: 100%;
     overflow-y: scroll;
-    color: #fff;
+    color: var(--white);
     padding: 1.2rem 2rem;
   }
 }
