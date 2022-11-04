@@ -8,6 +8,9 @@
   width: 24rem;
   text-align: center;
   background-color: var(--colorDarken);
+  -webkit-box-shadow: 3px 10px 15px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 10px 15px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 10px 15px -1px rgba(0, 0, 0, 0.75);
 }
 .personal__info {
   margin-top: 1rem;
@@ -51,6 +54,15 @@
   color: var(--black);
   font-weight: 900;
   cursor: pointer;
+}
+
+.btn-side a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-side a:hover {
+  color: var(--colorMain);
 }
 
 .btn-side:hover {

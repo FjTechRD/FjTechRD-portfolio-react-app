@@ -53,9 +53,8 @@
   color: var(--available);
 }
 
-/*! Lenguages, Skills */
+/*! Lenguages */
 
-.skills__info,
 .lenguages {
   text-align: left;
   padding: 1rem 0 3rem 0;
@@ -63,13 +62,28 @@
   flex-direction: column;
   gap: 0.8rem;
 }
-.skills-info__name,
+
 .lenguages__title {
   text-align: center;
 }
 
+/*! Skills */
+
+.skill__items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .skills__items {
   margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.skills__items i {
+  font-size: 4rem;
 }
 
 /*! Extra Skills */
@@ -82,6 +96,7 @@
 }
 
 .ex-skill__parraf {
+  font-size: 1.2rem;
   display: flex;
   gap: 1rem;
 }
@@ -126,6 +141,11 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0.6rem 0;
+  }
+  .ex-skill__parraf {
+    font-size: 1.8rem;
+    display: flex;
+    gap: 1rem;
   }
 }
 

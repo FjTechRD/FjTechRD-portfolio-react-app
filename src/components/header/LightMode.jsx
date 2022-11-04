@@ -21,7 +21,7 @@ const LightMode = () => {
           className="btn dark-mobile-btn header__style-btn"
           onClick={switchTheme}
         >
-          <i class="fa-solid fa-sun"></i>
+          <i className="fa-solid fa-sun"></i>
         </button>
       ) : (
         <button

@@ -33,7 +33,7 @@ const HomeServices = () => {
           </div>
           <h3 className="services__name">Video Editor</h3>
           <h4 className="service__description">
-            all you want with premiere pro, After Effects, photoshop and
+            All you want with premiere pro, After Effects, photoshop and
             illustrator
           </h4>
         </article>

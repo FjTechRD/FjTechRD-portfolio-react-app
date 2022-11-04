@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import "../../styles/var.css";
 
 const ParticlesBg = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -129,7 +130,7 @@ const ParticlesBg = () => {
         },
         retina_detect: true,
         background: {
-          color: "var(--particlesBg",
+          color: "var(--particlesBg)",
           image: "hidden",
           position: "50% 50%",
           repeat: "no-repeat",

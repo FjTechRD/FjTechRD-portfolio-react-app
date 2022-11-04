@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollContainer from "../components/shared/ScrollContainer";
 import "./style/sideInformation.css";
+import curriculum from "../assets/cv-fjtechrd.pdf";
 
 const SideInformationDesktop = () => {
   return (
@@ -54,7 +55,11 @@ const SideInformationDesktop = () => {
       <ScrollContainer />
       <hr />
       <div className="btn__side-info">
-        <button className="btn-side">Download CV</button>
+        <button className="btn-side">
+          <a href="src\assets\cv-fjtechrd.pdf" download={curriculum}>
+            Download CV
+          </a>
+        </button>
       </div>
     </section>
   );

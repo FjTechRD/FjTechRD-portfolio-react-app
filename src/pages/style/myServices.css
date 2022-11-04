@@ -1,6 +1,56 @@
 .my__services {
+  min-height: 90vh;
+  color: var(--white);
+  text-align: center;
+}
+
+.page__title {
+  margin-bottom: 5rem;
+}
+
+.services__primary {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--white);
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+.service__box {
+  padding: 1.5rem 0 0 0;
+  width: 30rem;
+  background-color: var(--grey);
+  border-radius: 1rem;
+}
+
+.header__srv-box {
+  margin-top: 0.5rem;
+}
+
+.header__srv-box h3 {
+  padding-bottom: 1rem;
+}
+
+.header__srv-box p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.service__image-box {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 300ms linear;
+}
+
+.service__box:hover {
+  border: 0.2rem solid var(--colorMain);
+  transition: border 200ms ease;
+}
+
+.service__box:hover > .service__image-box {
+  max-height: 19rem;
 }

@@ -50,43 +50,23 @@ const ScrollContainer = () => {
         <div className="skill__items-container">
           <div className="skills__items">
             <h3>HTML</h3>
-            <div className="progress">
-              <div className="progress-bar" style={{ width: "90%" }}>
-                <span className="progress-bar-text">90%</span>
-              </div>
-            </div>
+            <i className="fa-brands fa-html5"></i>
           </div>
           <div className="skills__items">
             <h3>CSS</h3>
-            <div className="progress">
-              <div className="progress-bar" style={{ width: "85%" }}>
-                <span className="progress-bar-text">85%</span>
-              </div>
-            </div>
+            <i className="fa-brands fa-css3-alt"></i>
           </div>
           <div className="skills__items">
             <h3>JS</h3>
-            <div className="progress">
-              <div className="progress-bar" style={{ width: "75%" }}>
-                <span className="progress-bar-text">75%</span>
-              </div>
-            </div>
+            <i className="fa-brands fa-js"></i>
           </div>
           <div className="skills__items">
             <h3>REACT </h3>
-            <div className="progress">
-              <div className="progress-bar" style={{ width: "60%" }}>
-                <span className="progress-bar-text">60%</span>
-              </div>
-            </div>
+            <i className="fa-brands fa-react"></i>
           </div>
           <div className="skills__items">
             <h3>WordPress</h3>
-            <div className="progress">
-              <div className="progress-bar" style={{ width: "80%" }}>
-                <span className="progress-bar-text">80%</span>
-              </div>
-            </div>
+            <i className="fa-brands fa-wordpress"></i>
           </div>
         </div>
       </div>
@@ -103,7 +83,7 @@ const ScrollContainer = () => {
           <i className="fa-solid fa-code"></i>Elementor
         </p>
         <p className="ex-skill__parraf">
-          <i className="fa-solid fa-code"></i>Shell Bash & Zsh
+          <i className="fa-solid fa-code"></i>Linux, shell Bash and Zsh
         </p>
       </div>
     </article>
