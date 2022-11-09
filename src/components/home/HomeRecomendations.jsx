@@ -9,9 +9,8 @@ const HomeRecomendations = () => {
       <div className="recomendations__header">
         <h2>Recommendations</h2>
         <p className="recomen__description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-          reprehenderit facilis, tempore consequuntur nemo reiciendis molestias
-          rem?
+          Space for recommendations from our clients and evaluations that they
+          have offered us after the realization of the projects made.
         </p>
       </div>
       <div className="recomendations__container">

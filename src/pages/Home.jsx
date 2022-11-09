@@ -1,10 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import HomeRecomendations from "../components/home/HomeRecomendations";
 import HomeServices from "../components/home/HomeServices";
 import ParticlesBg from "../components/home/ParticlesBg";
 import "./style/home.css";
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleContact = () => {
+    navigate("/contact");
+  };
+
   return (
     <div className="home">
       <section className="about-me">
@@ -18,11 +25,13 @@ const Home = () => {
               Developer
             </h1>
             <p className="about-me__greetings-description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-              aut vitae nam, deleniti quibusdam quod sequi debitis accusamus
-              molestiae
+              I am a front-end developer with a high desire to learn, I'm
+              fascinated by learning about new platforms and making a mark in
+              the world of development!
             </p>
-            <button className="about-me__btn">Contact Me!</button>
+            <button onClick={handleContact} className="about-me__btn">
+              Contact Me!
+            </button>
           </div>
         </div>
       </section>
