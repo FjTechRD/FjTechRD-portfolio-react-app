@@ -1,0 +1,63 @@
+{
+  "home": {
+    "header-greetings": "Greetings!",
+    "header-verb": "I'm",
+    "header-front-end": "Front-End",
+    "header-developer": "Developer",
+    "header-description": "I'm a front-end developer with a great disire to learn, fascinates by discovering new plataforms and making a mark in the world of development.",
+    "header-btn": "Contact Me!",
+    "my-services": "My Service",
+    "my-services-description": "List of the range of services we offer",
+    "web-development": "Web Development",
+    "web-service-description": "Reponsive web design under the technologies HTML, Css, Js, React",
+    "desing-ux-ix": "UX/IX Design",
+    "ui-ux-service-description": "Your tell us your dreams and we design them",
+    "video-editor": "Video Editor",
+    "editor-service-description": "Everything you want with premiere pro, after effects, photoshop and illustrator",
+    "marketing-seo": "Marketing & Seo",
+    "seo-service-description": "We put your page and bussines in the best positions",
+    "recomendations": "Recommendations",
+    "recomendations-description": "Space for recommendations form our clients and evaluations taht they have offered us after the completion of the projects carried out"
+  },
+  "side-information": {
+    "developer": "Front-End Developer",
+    "age": "Age:",
+    "residence": "Residence:",
+    "available": "Available",
+    "address": "Address:",
+    "lenguages": "Lenguages",
+    "spanish": "Spanish",
+    "english": "English",
+    "skills": "Skills",
+    "extra-skills": "Extra Skills",
+    "btn-download": "Download CV"
+  },
+  "my-services": {
+    "my-services-title": "My Service",
+    "web-development": "Web Development",
+    "web-development-description": "The best way to build your platform or web application you are looking for",
+    "ui-ux": "UI/UX Design",
+    "ui-ux-description": "We dont't want to force our ideas on clients, just design you are looking for",
+    "video-editor": "Video Editor",
+    "video-editor-description": "Everything you want with premiere pro, after effects, photoshop and illustrator",
+    "marketing-seo": "Seo & Marketing",
+    "marketing-seo-description": "We put your page and bussines in the best positions!"
+  },
+  "education": {
+    "education-title": "Education",
+    "web-development-fundaments": "Web Developer Fundaments",
+    "react-js": "React JS",
+    "cibersecurity": "Cibersecurity",
+    "social-engineering": "Social Engineering"
+  },
+  "projects": {
+    "projects-title": "Projects",
+    "projects-hover": "Hover me for see the technologies"
+  },
+  "change-lenguages": {
+    "spanish": "Change to Spanish lenguage",
+    "english": "Change toEnglish lenguage",
+    "american-flag": "Spanish flag",
+    "spanish-flag": "American flag"
+  }
+}

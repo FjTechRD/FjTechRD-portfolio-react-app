@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ChangeLenguages from "../components/header/ChangeLenguages";
 import LightMode from "../components/header/LightMode";
 import "./style/mainNavMenu.css";
 
@@ -41,6 +42,7 @@ const MainNavMenu = () => {
           </li>
         </ul>
       </div>
+      <ChangeLenguages />
     </nav>
   );
 };

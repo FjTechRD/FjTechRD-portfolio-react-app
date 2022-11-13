@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ChangeLenguages from "../components/header/ChangeLenguages";
 import HeaderNavMenu from "../components/header/HeaderNavMenu";
 import LightMode from "../components/header/LightMode";
 import SideInformation from "./SideInformation";
@@ -32,6 +33,7 @@ const Header = () => {
         )}
 
         <SideInformation openSideInformation={openSideInformation} />
+        <ChangeLenguages />
         <LightMode />
         {navMenuOpen ? (
           <button className="btn header__navMenu-btn" onClick={handleNavMenu}>

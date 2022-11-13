@@ -3,14 +3,13 @@ import { useState } from "react";
 import RatingStar from "./RatingStar";
 import "./style/homeRecomendations.css";
 
-const HomeRecomendations = () => {
+const HomeRecomendations = ({ trans }) => {
   return (
     <section className="recomendations">
       <div className="recomendations__header">
-        <h2>Recommendations</h2>
+        <h2>{trans("home.recomendations")}</h2>
         <p className="recomen__description">
-          Space for recommendations from our clients and evaluations that they
-          have offered us after the realization of the projects made.
+          {trans("home.recomendations-description")}
         </p>
       </div>
       <div className="recomendations__container">

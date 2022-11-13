@@ -69,6 +69,10 @@
 
 /*! Skills */
 
+.skills__info {
+  margin-top: 1rem;
+}
+
 .skill__items-container {
   display: flex;
   align-items: center;

@@ -1,0 +1,63 @@
+{
+  "home": {
+    "header-greetings": "Bienvenidos!",
+    "header-verb": "Soy",
+    "header-front-end": "Front-End",
+    "header-developer": "Desarollador",
+    "header-description": " Soy un desarrollador front-end con muchas ganas de aprender, fascinado por conocer nuevas plataformas y dejar huella en el mundo del desarrollo",
+    "header-btn": "Contactame!",
+    "my-services": "Mis Servicios",
+    "my-services-description": "Listado de la gama de servicios que ofrecemos",
+    "web-development": "Desarollo Web",
+    "web-service-description": "Diseño web responsivo bajo las tecnologias, HTML, Css, Js, React",
+    "desing-ux-ix": "Diseño UX/IX",
+    "ui-ux-service-description": "Tu nos cuentas tus sueños y nosotros los diseñamos",
+    "video-editor": "Editor de Video",
+    "editor-service-description": "Todo lo que quieras con Premiere, After Effects, Photoshop e illustrator",
+    "marketing-seo": "Marketing & Seo",
+    "seo-service-description": "Ponemos tu pagina y negocio en las mejores posiciones",
+    "recomendations": "Recomendaciones",
+    "recomendations-description": "Espacio para recomendaciones de nuestros clientes y valoraciones que nos han ofrecido tras la realización de los proyectos realizados"
+  },
+  "side-information": {
+    "developer": "Desarollador Front-End",
+    "age": "Edad:",
+    "residence": "Residencia:",
+    "available": "Disponible",
+    "address": "Dirección:",
+    "lenguages": "Lenguajes",
+    "spanish": "Español",
+    "english": "Ingles",
+    "skills": "Habilidades",
+    "extra-skills": "Habilidades Extra",
+    "btn-download": "Descargar CV"
+  },
+  "my-services": {
+    "my-services-title": "Mis Servicios",
+    "web-development": "Desarollo Web",
+    "web-development-description": "La mejor manera de construir la plataforma o aplicacion web que estas buscando ",
+    "ui-ux": "Diseño UI/UX",
+    "ui-ux-description": "No queremos forzar nuestras ideas en los clientes, solo diseñar eso que andas buscando",
+    "video-editor": "Editor de Video",
+    "video-editor-description": "Todo lo que quieras con Premiere Pro, After Effects, Photoshop e Illustrator",
+    "marketing-seo": "Seo & Marketing",
+    "marketing-seo-description": "Posicionamos tu pagina y negocio en la mejor posicion posible!"
+  },
+  "education": {
+    "education-title": "Educación",
+    "web-development-fundaments": "Fundamentos del desarollo web",
+    "react-js": "React JS",
+    "cibersecurity": "Ciberseguridad",
+    "social-engineering": "Ingeniería Social"
+  },
+  "projects": {
+    "projects-title": "Projectos",
+    "projects-hover": "Pasa el cursor sobre mi para ver las tecnologías"
+  },
+  "change-lenguages": {
+    "spanish": "Idioma Español",
+    "english": "Idioma Ingles",
+    "american-flag": "Bandera Española",
+    "spanish-flag": "Bandera Americana"
+  }
+}

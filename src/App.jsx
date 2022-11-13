@@ -9,21 +9,23 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import MainNavMenu from "./shared/MainNavMenu";
 import SideInformationDesktop from "./shared/SideInformationDesktop";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const [t, i18n] = useTranslation("global");
   return (
     <main className="App">
-      <SideInformationDesktop />
+      <SideInformationDesktop t={t} />
       <Routes>
         <Route element={<MainLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<MyServices />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home t={t} />} />
+          <Route path="/services" element={<MyServices t={t} />} />
+          <Route path="/education" element={<Education t={t} />} />
+          <Route path="/projects" element={<Projects t={t} />} />
+          <Route path="/contact" element={<Contact t={t} />} />
         </Route>
       </Routes>
-      <MainNavMenu />
+      <MainNavMenu i18n={i18n} />
     </main>
   );
 }

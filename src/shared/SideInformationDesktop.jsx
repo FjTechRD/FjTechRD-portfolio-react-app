@@ -3,7 +3,7 @@ import ScrollContainer from "../components/shared/ScrollContainer";
 import "./style/sideInformation.css";
 import curriculum from "../assets/cv-fjtechrd.pdf";
 
-const SideInformationDesktop = () => {
+const SideInformationDesktop = ({ t }) => {
   return (
     <section className="side-information__desktop">
       <article className="personal__info">
@@ -11,7 +11,7 @@ const SideInformationDesktop = () => {
           <img src="/img/personal_photo.webp" alt="" />
         </div>
         <h3>Javier Gonzalez</h3>
-        <h5>Front End Developer</h5>
+        <h5>{t("side-information.developer")}</h5>
         <div className="personal__social-media">
           <ul className="personal__social-media">
             <li className="social-media__item">
@@ -57,7 +57,7 @@ const SideInformationDesktop = () => {
       <div className="btn__side-info">
         <button className="btn-side">
           <a href="src\assets\cv-fjtechrd.pdf" download={curriculum}>
-            Download CV
+            {t("side-information.btn-download")}
           </a>
         </button>
       </div>

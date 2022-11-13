@@ -3,7 +3,7 @@
 }
 
 .light-mode {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 .menu__desktop__container-links {
@@ -13,7 +13,7 @@
 }
 
 .menu__desktop {
-  margin-top: 12rem;
+  margin-top: 8rem;
 }
 
 .menu__desktop__item {
@@ -124,5 +124,22 @@
     align-items: center;
     width: 12rem;
     background-color: var(--semiDark);
+  }
+  .lenguages-changer {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;
+  }
+  .btn_lenguage {
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+  }
+  .american_flag {
+    height: 2rem;
+    width: 4rem;
   }
 }
