@@ -25,7 +25,7 @@
     "residence": "Residencia:",
     "available": "Disponible",
     "address": "Dirección:",
-    "lenguages": "Lenguajes",
+    "lenguages": "Idiomas",
     "spanish": "Español",
     "english": "Ingles",
     "skills": "Habilidades",
@@ -59,5 +59,17 @@
     "english": "Idioma Ingles",
     "american-flag": "Bandera Española",
     "spanish-flag": "Bandera Americana"
+  },
+  "contact": {
+    "title": "Contacto",
+    "address": "Dirección",
+    "phone": "Telefono",
+    "email": "Correo Electronico",
+    "form-title": "Hagamos algo Genial!",
+    "form-name": "Nombre",
+    "form-lastname": "Apellidos",
+    "form-email": "Correo Electronico",
+    "form-phone": "Telefono",
+    "form-btn": "Enviar"
   }
 }

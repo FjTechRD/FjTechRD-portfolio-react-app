@@ -59,5 +59,17 @@
     "english": "Change toEnglish lenguage",
     "american-flag": "Spanish flag",
     "spanish-flag": "American flag"
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "E-mail",
+    "form-title": "Make something great!",
+    "form-name": "name",
+    "form-lastname": "Lastname",
+    "form-email": "E-mail",
+    "form-phone": "Phone",
+    "form-btn": "Send"
   }
 }

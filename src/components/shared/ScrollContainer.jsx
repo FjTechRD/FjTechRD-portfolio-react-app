@@ -91,6 +91,12 @@ const ScrollContainer = () => {
         <p className="ex-skill__parraf">
           <i className="fa-solid fa-code"></i>Linux, shell Bash and Zsh
         </p>
+        <p className="ex-skill__parraf">
+          <i className="fa-solid fa-code"></i>Photoshop, Illustrator
+        </p>
+        <p className="ex-skill__parraf">
+          <i className="fa-solid fa-code"></i>Premiere Pro, After Effects
+        </p>
       </div>
     </article>
   );

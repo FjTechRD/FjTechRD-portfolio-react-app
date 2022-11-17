@@ -14,6 +14,9 @@
   --rtgStarBg: #aaa;
   --particlesBg: #000;
   --colorHover: #20202095;
+  --neurophormismShw1: #131313;
+  --neurophormismShw2: #2d2d2d;
+  --inputForms: #464646;
 }
 
 .light {
@@ -33,4 +36,7 @@
   --rtgStarBg: #000;
   --particlesBg: #000;
   --colorHover: #dbdbdb;
+  --neurophormismShw1: #b1afaf;
+  --neurophormismShw2: #cfcfcf;
+  --inputForms: #b2b2b2;
 }
