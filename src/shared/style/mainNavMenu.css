@@ -116,6 +116,10 @@
   transition: transform 250ms ease;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 @media (min-width: 1024px) {
   .nav-menu__desktop {
     height: 100vh;
