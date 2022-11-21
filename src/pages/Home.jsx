@@ -3,9 +3,12 @@ import Greetings from "../components/home/Greetings";
 import HomeRecomendations from "../components/home/HomeRecomendations";
 import HomeServices from "../components/home/HomeServices";
 import ParticlesBg from "../components/home/ParticlesBg";
+import useTitle from "../hooks/useTitle";
 import "./style/home.css";
 
 const Home = ({ t, i18n }) => {
+  useTitle({ title: `${t("seo.home")}` });
+
   return (
     <div className="home">
       <section className="about-me">

@@ -56,7 +56,7 @@ const SideInformationDesktop = ({ t }) => {
       <hr />
       <div className="btn__side-info">
         <button className="btn-side">
-          <a href="src\assets\cv-fjtechrd.pdf" download={curriculum}>
+          <a href={curriculum} download={curriculum}>
             {t("side-information.btn-download")}
           </a>
         </button>

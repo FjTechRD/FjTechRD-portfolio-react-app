@@ -75,3 +75,10 @@
   border-radius: 2rem;
   transition: all 200ms ease;
 }
+
+.form__textarea {
+  margin: 0 auto;
+  background-color: var(--inputForms);
+  border: none;
+  width: 90%;
+}

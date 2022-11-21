@@ -71,5 +71,12 @@
     "form-email": "Correo Electronico",
     "form-phone": "Telefono",
     "form-btn": "Enviar"
+  },
+  "seo": {
+    "home": "INICIO",
+    "services": "SERVICIOS",
+    "education": "EDUCACIÓN",
+    "projects": "PROYECTOS",
+    "contact": "CONTACTO"
   }
 }

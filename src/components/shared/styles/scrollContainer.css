@@ -2,7 +2,7 @@
 
 .scroll__container {
   background-color: var(--scrollBg);
-  height: 46rem;
+  height: 32rem;
   width: 100%;
   overflow-y: scroll;
   color: var(--white);

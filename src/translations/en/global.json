@@ -66,10 +66,17 @@
     "phone": "Phone",
     "email": "E-mail",
     "form-title": "Make something great!",
-    "form-name": "name",
+    "form-name": "Name",
     "form-lastname": "Lastname",
     "form-email": "E-mail",
     "form-phone": "Phone",
     "form-btn": "Send"
+  },
+  "seo": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "education": "EDUCATION",
+    "projects": "PROJECTS",
+    "contact": "CONTACT"
   }
 }

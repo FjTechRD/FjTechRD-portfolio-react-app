@@ -1,7 +1,10 @@
 import React from "react";
+import useTitle from "../hooks/useTitle";
 import "./style/contact.css";
 
 const Contact = ({ t }) => {
+  useTitle({ title: `${t("seo.services")}` });
+
   return (
     <main className="contact">
       <h2>{t("contact.title")}</h2>
@@ -43,6 +46,14 @@ const Contact = ({ t }) => {
               <label htmlFor="">{t("contact.form-phone")}</label>
               <input type="text" />
             </div>
+            <label htmlFor="">Mensaje</label>
+            <textarea
+              className="form__textarea"
+              name=""
+              id=""
+              cols="10"
+              rows="8"
+            ></textarea>
             <button className="btn__form">{t("contact.form-btn")}</button>
           </form>
         </article>
